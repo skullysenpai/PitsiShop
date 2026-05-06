@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Added Google Fonts for a professional look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <title>PitsiShop | Curated Market</title>
+</head>
+<body>
+<nav>
+    <a href="index.html" style="color:white; font-weight:bold; text-decoration:none; font-size:1.5rem; letter-spacing:4px;">PITSISHOP</a>
+    <div class="nav-links">
+        <a href="index.html" class="nav-btn">Home</a>
+        <a href="products.html" class="nav-btn">Shop All</a> <!-- This is the new link -->
+        <a href="about.html" class="nav-btn">Our Story</a>
+        <a href="checkout.html" class="nav-btn">My Bag <span id="cart-num">0</span></a>
+    </div>
+</nav>
+
+    <header class="hero">
+        <p>ESTABLISHED 2026</p>
+        <h1>The Open Market</h1>
+        <p>QUALITY GOODS • TIMELESS DESIGN</p>
+    </header>
+
+    <section class="container">
+        <h2 class="section-title">The Seasonal Collection</h2>
+        <div class="market-grid" id="product-list">
+            <!-- Products injected by cart.js -->
+        </div>
+    </section>
+
+    <footer style="background: var(--market-wood); color: white; padding: 4rem 0; text-align: center; margin-top: 5rem;">
+        <h2 style="letter-spacing: 5px;">PITSISHOP</h2>
+        <p style="opacity: 0.6; font-size: 0.8rem;">© 2026 CURATED OPEN MARKET. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
